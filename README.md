@@ -49,9 +49,9 @@ After you run the mentioned code, you will see a desktop notification on your sc
 Importing libraries 
  
  ```
-import pyowm
-from win10toast import ToastNotifier 
-import time
+$import pyowm
+$from win10toast import ToastNotifier 
+$import time
  ```
  
  Desktop notification object
