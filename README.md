@@ -17,12 +17,12 @@ You need dependencies below.
 
 
 
-### Install the repo and the equirements
+### Install the repo and the requirements
 
 Clone the repo and install 3rd-party libraries.
 
 ```bash
-$ git clone https://github.com/Kianoush-h/YouTube-Downloder
+$ git clone https://github.com/Kianoush-h/Weather-Desktop-Notification.git
 $ cd Weather-Desktop-Notification
 $ pip3 install -r requirements.txt
 ```
@@ -40,13 +40,13 @@ After you run the mentioned code, you will see a desktop notification on your sc
 ![weather notification](./etc/notif.JPG)
 
 
- This notification apeas each 15 minutes which you can change it to your prefernces.
+ This notification apeas each 15 minutes which you can change it to your preferences.
  
  
  
 ## Example
 
-Importing Libriraies 
+Importing libraries 
  
  ```
 import pyowm
