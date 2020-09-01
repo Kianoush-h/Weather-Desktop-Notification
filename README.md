@@ -33,7 +33,7 @@ $ pip3 install -r requirements.txt
 You can run the the code with this:
 
 ```
-$ python3 Weather.py
+python3 Weather.py
 ```
 After you run the mentioned code, you will see a desktop notification on your screen which is something like this:
 
@@ -49,9 +49,9 @@ After you run the mentioned code, you will see a desktop notification on your sc
 Importing libraries 
  
  ```
-$import pyowm
-$from win10toast import ToastNotifier 
-$import time
+import pyowm
+from win10toast import ToastNotifier 
+import time
  ```
  
  Desktop notification object
