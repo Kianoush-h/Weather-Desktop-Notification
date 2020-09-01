@@ -37,7 +37,7 @@ $ python3 Weather.py
 ```
 After you run the mentioned code, you will see a desktop notification on your screen which is something like this:
 
-![weather notification](./etcs/notif.JPG)
+![weather notification](./etc/notif.JPG)
 
 
  This notification apeas each 15 minutes which you can change it to your prefernces.
