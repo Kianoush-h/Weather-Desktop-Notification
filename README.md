@@ -44,17 +44,26 @@ After you run the mentioned code, you will see a desktop notification on your sc
  
  
  
- 
- ## Example
+## Example
+
+Importing Libriraies 
  
  ```
- import pyowm
+import pyowm
 from win10toast import ToastNotifier 
 import time
-
+ ```
+ 
+ Desktop notification object
+ 
+ ```
 toaster = ToastNotifier() 
+ ```
 
 
+We need a function to fetch the weather and display it:
+
+ ```
 def weather ():
     owm = pyowm.OWM('your code from pyowm website')
     observation = owm.weather_at_place('Montreal,CA')
@@ -70,12 +79,21 @@ def weather ():
     toaster.show_toast("live Weather update", result, duration = 5,
                  icon_path="icon.ico", threaded=True) 
 
-
+ ```
+ 
+ 
+ Before we call the weather function we need to set the delay amount that we want:
+ 
+  ```
 delay =  60 * 15  #     60 s * 15 min
 now = time.time()
 old = now
 weather()
-
+ ```
+ 
+ After all with this loop the weather notification will apear each 15 min:
+ 
+  ```
 while now < old + delay:
     
     if now + 5 >= old + delay:
