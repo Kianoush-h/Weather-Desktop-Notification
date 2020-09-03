@@ -112,3 +112,14 @@ while now < old + delay:
  You can modify this code to get an updated news from a website or elsewhere. The base of this project is the desktop notifier, hence you can combine it with any update notification-based app you want, email, YouTube notifier, news, articles from wikipedia, for inctance. 
  
  
+ 
+ 
+ # Contact Me
+
+Email: haratiank2@gmail.com
+
+YouTube channel: https://www.youtube.com/channel/UCvf9_53f6n3YjNEA4NxAkJA?view_as=subscriber
+GitHub: https://github.com/Kianoush-h
+LinkedIn: https://www.linkedin.com/in/kianoush-haratiannejadi/
+
+ 
